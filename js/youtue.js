@@ -19,6 +19,6 @@ function onYouTubeIframeAPIReady() {
       onReady: function (event) {
         event.target.mute();
       }
-    } 
-  })
+    }
+  });
 }; 
