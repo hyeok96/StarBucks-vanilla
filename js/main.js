@@ -120,4 +120,7 @@ new Swiper('.awards .swiper', {
     prevEl: '.awards .swiper-button-prev',
     nextEl: '.awards .swiper-button-next'
   }
-})
+});
+
+const thisYear = document.querySelector('.this-year');
+thisYear.textContent = new Date().getFullYear();
