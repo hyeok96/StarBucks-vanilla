@@ -795,3 +795,15 @@ overflow: hidden;
 .find-store .text-group .more{
 
 }
+
+/* AWARDS */
+.awards{
+  background-color: #272727;
+}
+.awards .inner{ 
+  padding: 40px;
+}
+.awards .swiper{
+  width: 100%;
+  height: 40px;
+}

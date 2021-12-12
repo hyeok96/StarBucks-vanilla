@@ -110,3 +110,14 @@ spyEls.forEach(function (spyEl) {
     .setClassToggle(spyEl, 'show')
     .addTo(new ScrollMagic.Controller());
 });
+
+new Swiper('.awards .swiper', {
+  spaceBetween: 30,
+  slidesPerView: 5,
+  loop: true,
+  autoplay: true,
+  navigation: {
+    prevEl: '.awards .swiper-button-prev',
+    nextEl: '.awards .swiper-button-next'
+  }
+})
